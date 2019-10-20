@@ -1,0 +1,57 @@
+[19-Feb-2015 06:07:45 America/Denver] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: YES) in /home1/sarahnel/public_html/sarah/infs3202_site/connectMySQL.php on line 5
+[19-Feb-2015 06:07:46 America/Denver] PHP Notice:  Undefined variable: message in /home1/sarahnel/public_html/sarah/infs3202_site/login.php on line 55
+[19-Feb-2015 06:08:08 America/Denver] PHP Notice:  Undefined variable: message in /home1/sarahnel/public_html/sarah/infs3202_site/login.php on line 55
+[19-Feb-2015 06:08:08 America/Denver] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: YES) in /home1/sarahnel/public_html/sarah/infs3202_site/connectMySQL.php on line 5
+[19-Feb-2015 06:17:20 America/Denver] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home1/sarahnel/public_html/sarah/infs3202_site/index.php on line 200
+[19-Feb-2015 06:17:54 America/Denver] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home1/sarahnel/public_html/sarah/infs3202_site/index.php on line 200
+[19-Feb-2015 06:23:56 America/Denver] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/sarahnel/public_html/sarah/infs3202_site/detail.php on line 15
+[19-Feb-2015 06:23:56 America/Denver] PHP Notice:  Undefined variable: lat in /home1/sarahnel/public_html/sarah/infs3202_site/detail.php on line 110
+[19-Feb-2015 06:23:56 America/Denver] PHP Notice:  Undefined variable: longitude in /home1/sarahnel/public_html/sarah/infs3202_site/detail.php on line 110
+[19-Feb-2015 06:23:56 America/Denver] PHP Notice:  Undefined variable: row in /home1/sarahnel/public_html/sarah/infs3202_site/detail.php on line 196
+[19-Feb-2015 06:23:56 America/Denver] PHP Notice:  Undefined variable: description in /home1/sarahnel/public_html/sarah/infs3202_site/detail.php on line 205
+[19-Feb-2015 06:24:08 America/Denver] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home1/sarahnel/public_html/sarah/infs3202_site/index.php on line 200
+[19-Feb-2015 06:24:12 America/Denver] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/sarahnel/public_html/sarah/infs3202_site/detail.php on line 15
+[19-Feb-2015 06:24:12 America/Denver] PHP Notice:  Undefined variable: lat in /home1/sarahnel/public_html/sarah/infs3202_site/detail.php on line 110
+[19-Feb-2015 06:24:12 America/Denver] PHP Notice:  Undefined variable: longitude in /home1/sarahnel/public_html/sarah/infs3202_site/detail.php on line 110
+[19-Feb-2015 06:24:12 America/Denver] PHP Notice:  Undefined variable: row in /home1/sarahnel/public_html/sarah/infs3202_site/detail.php on line 196
+[19-Feb-2015 06:24:12 America/Denver] PHP Notice:  Undefined variable: description in /home1/sarahnel/public_html/sarah/infs3202_site/detail.php on line 205
+[19-Feb-2015 06:24:15 America/Denver] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home1/sarahnel/public_html/sarah/infs3202_site/index.php on line 200
+[19-Feb-2015 06:25:31 America/Denver] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home1/sarahnel/public_html/sarah/infs3202_site/index.php on line 200
+[19-Feb-2015 06:32:36 America/Denver] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home1/sarahnel/public_html/sarah/infs3202_site/index.php on line 200
+[19-Feb-2015 06:32:51 America/Denver] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/sarahnel/public_html/sarah/infs3202_site/detail.php on line 15
+[19-Feb-2015 06:32:51 America/Denver] PHP Notice:  Undefined variable: lat in /home1/sarahnel/public_html/sarah/infs3202_site/detail.php on line 110
+[19-Feb-2015 06:32:51 America/Denver] PHP Notice:  Undefined variable: longitude in /home1/sarahnel/public_html/sarah/infs3202_site/detail.php on line 110
+[19-Feb-2015 06:32:51 America/Denver] PHP Notice:  Undefined variable: row in /home1/sarahnel/public_html/sarah/infs3202_site/detail.php on line 196
+[19-Feb-2015 06:32:51 America/Denver] PHP Notice:  Undefined variable: description in /home1/sarahnel/public_html/sarah/infs3202_site/detail.php on line 205
+[19-Feb-2015 06:32:59 America/Denver] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home1/sarahnel/public_html/sarah/infs3202_site/index.php on line 200
+[19-Feb-2015 06:33:12 America/Denver] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/sarahnel/public_html/sarah/infs3202_site/search_results.php on line 11
+[19-Feb-2015 06:33:15 America/Denver] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home1/sarahnel/public_html/sarah/infs3202_site/index.php on line 200
+[19-Feb-2015 07:12:55 America/Denver] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home1/sarahnel/public_html/sarah/infs3202_site/index.php on line 200
+[19-Feb-2015 07:54:50 America/Denver] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home1/sarahnel/public_html/sarah/infs3202_site/index.php on line 200
+[19-Feb-2015 07:54:52 America/Denver] PHP Notice:  Undefined variable: lat in /home1/sarahnel/public_html/sarah/infs3202_site/detail.php on line 110
+[19-Feb-2015 07:54:52 America/Denver] PHP Notice:  Undefined variable: longitude in /home1/sarahnel/public_html/sarah/infs3202_site/detail.php on line 110
+[19-Feb-2015 07:54:52 America/Denver] PHP Notice:  Undefined variable: row in /home1/sarahnel/public_html/sarah/infs3202_site/detail.php on line 196
+[19-Feb-2015 07:54:52 America/Denver] PHP Notice:  Undefined variable: description in /home1/sarahnel/public_html/sarah/infs3202_site/detail.php on line 205
+[25-Feb-2015 21:32:56 America/Denver] PHP Notice:  Undefined index: timeValue in /home1/sarahnel/public_html/sarah/infs3202_site/index.php on line 99
+[25-Feb-2015 21:32:56 America/Denver] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home1/sarahnel/public_html/sarah/infs3202_site/index.php on line 200
+[25-Feb-2015 21:32:57 America/Denver] PHP Notice:  Undefined variable: message in /home1/sarahnel/public_html/sarah/infs3202_site/login.php on line 55
+[25-Feb-2015 21:33:18 America/Denver] PHP Notice:  Undefined index: timer in /home1/sarahnel/public_html/sarah/infs3202_site/login.php on line 17
+[25-Feb-2015 21:33:18 America/Denver] PHP Notice:  Undefined variable: message in /home1/sarahnel/public_html/sarah/infs3202_site/login.php on line 55
+[25-Feb-2015 21:33:18 America/Denver] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home1/sarahnel/public_html/sarah/infs3202_site/index.php on line 200
+[25-Feb-2015 21:33:50 America/Denver] PHP Notice:  Undefined variable: message in /home1/sarahnel/public_html/sarah/infs3202_site/login.php on line 55
+[25-Feb-2015 21:34:03 America/Denver] PHP Notice:  Undefined variable: message in /home1/sarahnel/public_html/sarah/infs3202_site/login.php on line 55
+[25-Feb-2015 21:34:03 America/Denver] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home1/sarahnel/public_html/sarah/infs3202_site/index.php on line 200
+[25-Feb-2015 21:34:28 America/Denver] PHP Notice:  Undefined variable: lat in /home1/sarahnel/public_html/sarah/infs3202_site/detail.php on line 110
+[25-Feb-2015 21:34:28 America/Denver] PHP Notice:  Undefined variable: longitude in /home1/sarahnel/public_html/sarah/infs3202_site/detail.php on line 110
+[25-Feb-2015 21:34:28 America/Denver] PHP Notice:  Undefined variable: row in /home1/sarahnel/public_html/sarah/infs3202_site/detail.php on line 196
+[25-Feb-2015 21:34:28 America/Denver] PHP Notice:  Undefined variable: description in /home1/sarahnel/public_html/sarah/infs3202_site/detail.php on line 205
+[25-Feb-2015 21:34:32 America/Denver] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home1/sarahnel/public_html/sarah/infs3202_site/index.php on line 200
+[25-Feb-2015 21:34:44 America/Denver] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home1/sarahnel/public_html/sarah/infs3202_site/index.php on line 200
+[25-Feb-2015 21:36:58 America/Denver] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home1/sarahnel/public_html/sarah/infs3202_site/index.php on line 200
+[25-Feb-2015 21:36:58 America/Denver] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home1/sarahnel/public_html/sarah/infs3202_site/index.php on line 200
+[09-Mar-2015 15:01:23 America/Denver] PHP Notice:  Undefined index: timeValue in /home1/sarahnel/public_html/sarah/infs3202_site/index.php on line 99
+[09-Mar-2015 15:01:23 America/Denver] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home1/sarahnel/public_html/sarah/infs3202_site/index.php on line 200
+[09-Mar-2015 15:01:24 America/Denver] PHP Notice:  Undefined variable: message in /home1/sarahnel/public_html/sarah/infs3202_site/login.php on line 55
+[09-Mar-2015 15:01:25 America/Denver] PHP Notice:  Undefined index: timeValue in /home1/sarahnel/public_html/sarah/infs3202_site/index.php on line 99
+[09-Mar-2015 15:01:25 America/Denver] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home1/sarahnel/public_html/sarah/infs3202_site/index.php on line 200
+[09-Mar-2015 15:01:26 America/Denver] PHP Notice:  Undefined variable: message in /home1/sarahnel/public_html/sarah/infs3202_site/login.php on line 55

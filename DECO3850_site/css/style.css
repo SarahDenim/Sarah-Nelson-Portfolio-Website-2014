@@ -1,0 +1,300 @@
+body {
+  padding-top: 50px;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+.lead {
+  font-size: 20px;
+}
+
+#index_img {
+	width: 100%;
+}
+
+.logo_img {
+	z-index: 1;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -200px;
+	margin-left: -250px;
+}
+
+.navbar-simple {
+	background: black;
+  border: none;
+}
+
+.navbar-simple .navbar-nav {
+	float: right;
+}
+
+#bar {
+  height: 5px;
+  width: 100%;
+}
+
+#redbar {
+  height: 5px;
+  width: 100%;
+  background-color: #CC0000;
+}
+
+.section_img {
+  width: 100%;
+}
+
+.white {
+  color: #fff;
+}
+
+#blue {
+  color: #2D50FF;
+}
+
+#red {
+  color: #CC0000;
+}
+
+#green {
+  color: #2AAC00;
+}
+
+#purple {
+  color: #9100CC;
+}
+
+#pink {
+  color: #D50084;
+}
+
+#yellow {
+  color: #F5EA00;
+}
+
+#orange {
+  color: #DE5800;
+}
+
+#blue:hover {
+  color: #fff;
+}
+
+#red:hover {
+  color: #fff;
+}
+#orange:hover {
+  color: #fff;
+}
+#pink:hover {
+  color: #fff;
+}
+#purple:hover {
+  color: #fff;
+}
+#yellow:hover {
+  color: #fff;
+}
+#green:hover {
+  color: #fff;
+}
+
+#bluesection {
+  background-color: #2D50FF;
+  color: #fff;
+  padding: 20px;
+  height: 500px;
+}
+
+.bluetitlesection {
+  background-color: #001778;
+  color: #fff;
+  padding: 20px;
+  height: 80px;
+}
+
+.redtitlesection {
+  background-color: #8A0000;
+  color: #fff;
+  padding: 20px;
+  height: 80px;
+}
+
+.redsubtitlesection {
+  background-color: #730015;
+  color: #fff;
+  padding: 8px;
+  padding-left: 20px;
+  height: 40px;
+}
+
+.redsection {
+  background-color: #CC0000;
+  color: #fff;
+  padding: 20px;
+  height: auto;
+}
+
+.orangetitlesection {
+  background-color: #ED4F0C;
+  color: #fff;
+  padding: 20px;
+  height: 80px;
+}
+
+.orangesubtitlesection {
+  background-color: #E82C0C;
+  color: #fff;
+  padding: 8px;
+  padding-left: 20px;
+  height: 40px;
+}
+
+.pinksubtitlesection {
+  background-color: #D50084;
+  color: #fff;
+  padding: 8px;
+  padding-left: 20px;
+  height: 40px;
+}
+
+#bluesection3 {
+  background-color: #008BFA;
+  color: #fff;
+  padding: 20px;
+  height: auto;
+}
+
+.whitesection {
+  background-color: #FFF;
+  color: #000;
+  padding: 20px;
+  height: auto;
+}
+
+.left_col {
+  width: 70%;
+  float: left;
+}
+
+.right_col {
+  width: 20%;
+  float: left;
+  padding: 40px;
+  padding-left: 60px;
+}
+
+.gallerylink {
+  color: #FFF;
+}
+
+.gallerylink:hover {
+  color: #FF8600;
+}
+
+.gallerylink2 {
+  color: #FFF;
+}
+
+.gallerylink2:hover {
+  color: #FF79F1;
+}
+
+.clicked {
+  color: #821907;
+}
+
+.clicked2 {
+  color: #821907;
+}
+
+/* Grow */
+.grow {
+  display: inline-block;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.grow:hover, .grow:focus, .grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+/* Pop */
+@-webkit-keyframes pop {
+  50% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes pop {
+  50% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+.pop {
+  display: inline-block;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.pop:hover, .pop:focus, .pop:active {
+  -webkit-animation-name: pop;
+  animation-name: pop;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+/* Trim */
+.trim {
+  display: inline-block;
+  position: relative;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.trim:before {
+  content: '';
+  position: absolute;
+  border: white solid 2px;
+  top: 4px;
+  left: 4px;
+  right: 4px;
+  bottom: 4px;
+  opacity: 0;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+}
+.trim:hover:before, .trim:focus:before, .trim:active:before {
+  opacity: 1;
+}

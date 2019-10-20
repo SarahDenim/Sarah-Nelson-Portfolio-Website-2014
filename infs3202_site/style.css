@@ -1,0 +1,203 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	margin: 0 auto;
+	width: 1000px;
+	padding: 20px;
+	background-color: black;
+}
+
+#container {
+	background-color: grey;
+	overflow: hidden;
+}
+
+@font-face {
+	font-family: 'leagueGothic';
+	src: url('fonts/leaguegothic-regular-webfont.eot');
+	src: url('fonts/LeagueGothic-Regular.otf');
+}
+
+@font-face {
+	font-family: 'cabin';
+	src: url('fonts/Cabin-Regular.otf');
+}
+
+p, h2, h3, th {
+	font-family: 'cabin', sans-serif;
+}
+
+h3 {
+	color: #902d2b;
+}
+
+p {
+	float: left;
+}
+
+.promotion {
+	font-family: 'cabin', sans-serif;
+}
+
+#deal1timer, #deal2timer {
+	font-family: 'cabin', sans-serif;
+	float: left;
+	width: 100%;
+}
+
+#deal1, #deal2, #deal3 {
+	width: 380px;
+	float: left;
+}
+
+.row {
+	width: 800px;
+	height: 200px;
+}
+
+#left_col {
+	width: 200px;
+	min-height: 570px;
+	height: ;
+	float: left;
+	background-color: grey;
+}
+
+#right_col {
+	width: 750px;
+	min-height: 555px;
+	height: auto;
+	float: left;
+	background-color: white;
+	padding: 0 15px 15px 15px;
+	border-left: 2px solid #585858;
+}
+
+.dealmeta {
+	float: left;
+	font-family: 'cabin', sans-serif;
+	padding-top: 15px;
+}
+
+#formstyle {
+	background-color: white;
+}
+
+.button {
+	padding: 3px;
+	font-family: 'cabin', sans-serif;
+	color: #fff;
+	background-color:#902d2b;
+	text-decoration: none;
+	margin: 20px 20px 0 20px;
+	float: left;
+	width: 150px;
+	padding-left: 10px;
+}
+
+.edit:hover {
+	background-color: #fff;
+}
+
+.button:hover {
+	background-color:#6f2322;
+}
+
+.field {
+	margin: 1.5em;
+}
+
+img {
+	float: left;
+	padding-right: 15px;
+	width: 200px;
+}
+
+.dealimg {
+	float: left;
+}
+
+#header {
+	height: 30px;
+	width: 982px;
+	float: left;
+	background-color: #4b4b4b;
+}
+
+table {
+	border-collapse: collapse;
+	width: 700px;
+}
+
+.database {
+	width: 750px;
+}
+
+td {
+	border: 1px solid black;
+	padding: 5px;
+	font-family: 'cabin', sans-serif;
+	font-size: 14px;
+}
+
+.cleardefault {
+	width: 250px;
+	float: left;
+}
+
+input {
+	width: 200px;
+	float: left;
+}
+
+#tab, #Dtab {
+	border: 1px solid black;
+	border-bottom: none;
+	padding: 3px;
+	cursor: pointer;
+}
+
+#description {
+	width: 500px;
+	height: 200px;
+	margin-top: 3px;
+}
+
+#comments, #directions {
+	width: 500px;
+	height: 200px;
+	margin-top: 3px;
+	display: none;
+}
+
+#spacer {
+	padding: none;
+	margin: none;
+	border-bottom: 1px solid black;
+	width: 200px;
+	height: 20px;
+	float: left;
+}
+
+label {
+	width: 200px;
+	float: left;
+}
+
+#map-canvas {
+    height: 350px;
+    width: 350px;
+    margin: 0px;
+    padding: 0px
+}
+
+#location {
+	float: left;
+}
+
+#directions {
+	height: 250px;
+	margin-top: 20px;
+	padding:0px;
+}

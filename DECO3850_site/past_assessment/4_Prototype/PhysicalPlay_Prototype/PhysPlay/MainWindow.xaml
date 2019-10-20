@@ -1,0 +1,10 @@
+﻿<Window x:Class="PhysPlay.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="PhysPlay" 
+        Loaded="MainWindow_Loaded" Closing="MainWindow_Closing" WindowStyle="None" WindowStartupLocation="CenterScreen" WindowState="Maximized" Background="Black">
+    <Grid>
+        <Image Source="{Binding ImageSource}" HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Center" />
+
+    </Grid>
+</Window>

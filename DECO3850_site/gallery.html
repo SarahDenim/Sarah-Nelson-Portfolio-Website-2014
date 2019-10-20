@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="css/blueimp-gallery.min.css">
+  
+	<meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
+
+  <title>Portfolio</title>
+
+  </head>
+
+  <body>
+    <div class="navbar navbar-inverse navbar-simple navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">DECO3850 Portfolio: Graffiti Floor</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="product.html"><div id="blue">Product</div></a></li>
+            <li><a href="process.html"><div id="red">Process</div></a></li>
+            <li><a href="report.html"><div id="green">Report</div></a></li>
+            <li><a href="previous.html"><div id="yellow">Previous Outputs</div></a></li>
+            <li><a href="gallery.html"><div id="orange">Image Gallery</div></a></li>
+            <li><a href="vgallery.html"><div id="pink">Video Gallery</div></a></li>
+            <li><a href="contact.html"><div id="purple">Contact</div></a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+      <div id="bar" style="background-color: #DE5800;"></div>
+    </div>
+    <div class="orangetitlesection">
+      <h1 style="margin-top: 0px;">Image Gallery</h1>
+    </div>
+    <div class="orangesubtitlesection">
+      <h2 style="margin: 0px;"><a class="gallerylink clicked" href="gallery.html">Development process</a> || <a class="gallerylink" href="gallery2.html">Exhibition</a></h2>
+    </div>
+
+    <div id="links">
+    <a href="img/developimg/1509057_10202880197220310_1370649352565420634_n.jpg" data-gallery></a>
+    <a href="img/developimg/1969404_10202880201020405_6817368839015897364_n.jpg" data-gallery></a>
+    <a href="img/developimg/10155603_676810385708965_2051094183401215445_n.jpg" data-gallery></a>
+    <a href="img/developimg/10271590_10202880199460366_3425056107911141564_n.jpg" data-gallery></a>
+    <a href="img/developimg/10276991_676810739042263_6896224567222567088_n.jpg" data-gallery></a>
+    <a href="img/developimg/10302047_10202880197660321_2732839598344190653_n.jpg" data-gallery></a>
+    <a href="img/developimg/10356405_10202880198180334_1053610010660651573_n.jpg" data-gallery></a>
+    <a href="img/developimg/DSC_0238.jpg" data-gallery></a>
+    <a href="img/developimg/DSC_0241.jpg" data-gallery></a>
+    <a href="img/developimg/DSC_0266.jpg" data-gallery></a>
+    <a href="img/developimg/DSC_0350.jpg" data-gallery></a>
+    <a href="img/developimg/DSC_0352.jpg" data-gallery></a>
+    <a href="img/developimg/DSC_0361.jpg" data-gallery></a>
+    <a href="img/developimg/DSC_0364.jpg" data-gallery></a>
+    <a href="img/developimg/DSC_0379.jpg" data-gallery></a>
+    <a href="img/developimg/DSC_0398.jpg" data-gallery></a>
+    <a href="img/developimg/DSC_0413_cropped.jpg" data-gallery></a>
+    <a href="img/developimg/DSC_0417.jpg" data-gallery></a>
+    <a href="img/developimg/photo_1.jpg" data-gallery></a>
+    <a href="img/developimg/photo_2.jpg" data-gallery></a>
+    
+    </div>
+
+    <div id="blueimp-gallery-carousel" class="blueimp-gallery blueimp-gallery-carousel">
+    <div class="slides"></div>
+    <h3 class="title"></h3>
+    <a class="prev">‹</a>
+    <a class="next">›</a>
+    <a class="close">×</a>
+    <a class="play-pause"></a>
+    <ol class="indicator"></ol>
+    </div>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	  <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/blueimp-gallery.min.js"></script>
+    
+<script>
+blueimp.Gallery(
+    document.getElementById('links').getElementsByTagName('a'),
+    {
+        container: '#blueimp-gallery-carousel',
+        carousel: true
+    }
+);
+</script>
+</body>
+</html>

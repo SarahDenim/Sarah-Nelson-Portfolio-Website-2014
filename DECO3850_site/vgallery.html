@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="css/blueimp-gallery.min.css">
+
+	<meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
+
+  <title>Portfolio</title>
+
+  </head>
+
+  <body>
+    <div class="navbar navbar-inverse navbar-simple navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">DECO3850 Portfolio: Graffiti Floor</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="product.html"><div id="blue">Product</div></a></li>
+            <li><a href="process.html"><div id="red">Process</div></a></li>
+            <li><a href="report.html"><div id="green">Report</div></a></li>
+            <li><a href="previous.html"><div id="yellow">Previous Outputs</div></a></li>
+            <li><a href="gallery.html"><div id="orange">Image Gallery</div></a></li>
+            <li><a href="vgallery.html"><div id="pink">Video Gallery</div></a></li>
+            <li><a href="contact.html"><div id="purple">Contact</div></a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+      <div id="bar" style="background-color: #D50084;"></div>
+    </div>
+    <div class="container">
+    <h1>Video Gallery</h1>
+    <p class="lead">A video Faisal made showing the development process and exhibition: <a href="http://youtu.be/yo9vNDB_ZiA">http://youtu.be/yo9vNDB_ZiA</a><br>
+    Brian and me dancing on the floor: <a href="http://youtu.be/2wxLJ5xpEeA">http://youtu.be/2wxLJ5xpEeA</a><br>
+    Report Back Video (prototype video as of Week 11): <a href="https://flic.kr/p/nsu65N">https://flic.kr/p/nsu65N</a></p>
+    </div>
+
+    <div class="pinksubtitlesection">
+      <h2 style="margin: 0px;"><a class="gallerylink2 clicked2" href="vgallery.html">Development process</a> || <a class="gallerylink2" href="vgallery2.html">Exhibition</a></h2>
+    </div>
+
+    <div id="links">
+    <a
+        href="img/developvid/brushes.mp4"
+        type="video/mp4"
+        data-poster="img/developvid/brushes_thumb.png"
+    ></a>
+
+    <a
+        href="img/developvid/Felix_Drawing.mp4"
+        type="video/mp4"
+        data-poster="img/developvid/Felix_Drawing_thumb.png"
+    ></a>
+
+    <a
+        href="img/developvid/IMG_2688.mov"
+        type="video/mov"
+        data-poster="img/developvid/IMG_2688_thumb.png"
+    ></a>
+
+    <a
+        href="img/developvid/IMG_2970.mov"
+        type="video/mov"
+        data-poster="img/developvid/IMG_2970_thumb.png"
+    ></a>
+
+    <a
+        href="img/developvid/IMG_2973.mov"
+        type="video/mov"
+        data-poster="img/developvid/IMG_2973_thumb.png"
+    ></a>
+
+    <a
+        href="img/developvid/MOV_0262.mp4"
+        type="video/mp4"
+        data-poster="img/developvid/MOV_0262_thumb.png"
+    ></a>
+
+    <a
+        href="img/developvid/MOV_0296.mp4"
+        type="video/mp4"
+        data-poster="img/developvid/MOV_0296_thumb.png"
+    ></a>
+
+    <a
+        href="img/developvid/MOV_0405.mp4"
+        type="video/mp4"
+        data-poster="img/developvid/MOV_0405_thumb.png"
+    ></a>
+
+    <a
+        href="img/developvid/Tues20Vid2.mp4"
+        type="video/mp4"
+        data-poster="img/developvid/Tues20Vid2_thumb.png"
+    ></a>
+
+    </div>
+
+    <div id="blueimp-gallery-carousel" class="blueimp-gallery blueimp-gallery-carousel">
+    <div class="slides"></div>
+    <h3 class="title"></h3>
+    <a class="prev">‹</a>
+    <a class="next">›</a>
+    <a class="close">×</a>
+    <a class="play-pause"></a>
+    <ol class="indicator"></ol>
+    </div>
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/blueimp-gallery.min.js"></script>
+    <script>
+    blueimp.Gallery(
+        document.getElementById('links').getElementsByTagName('a'),
+        {
+            container: '#blueimp-gallery-carousel',
+            carousel: true
+        }
+    );
+    </script>
+</body>
+</html>
